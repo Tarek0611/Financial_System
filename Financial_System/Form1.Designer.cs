@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(564, 263);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -37,11 +47,14 @@
             BackColor = Color.White;
             BackgroundImage = Properties.Resources._0f4b2b6c_d3c7_4b64_9d55_3497177af7e3;
             ClientSize = new Size(1128, 583);
+            Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }
