@@ -1,8 +1,8 @@
 namespace Financial_System
 {
-    public partial class Form1 : Form
+    public partial class Welcome_Page : Form
     {
-        public Form1()
+        public Welcome_Page()
         {
             InitializeComponent();
         }

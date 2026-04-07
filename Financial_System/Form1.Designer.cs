@@ -1,6 +1,6 @@
 ﻿namespace Financial_System
 {
-    partial class Form1
+    partial class Welcome_Page
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -19,14 +19,14 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // Welcome_Page
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1128, 583);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Welcome_Page";
+            Text = "Welcome Page";
             ResumeLayout(false);
         }
 
