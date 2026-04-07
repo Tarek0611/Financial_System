@@ -6,5 +6,11 @@ namespace Financial_System
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            string name = " 😘😘 خد رقمي يا حبي 01021799781";
+            lbl1.Text = name;
+        }
     }
 }
