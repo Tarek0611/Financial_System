@@ -19,7 +19,7 @@ namespace Financial_System.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -66,6 +66,16 @@ namespace Financial_System.Properties {
         internal static System.Drawing.Bitmap _0f4b2b6c_d3c7_4b64_9d55_3497177af7e3 {
             get {
                 object obj = ResourceManager.GetObject("0f4b2b6c-d3c7-4b64-9d55-3497177af7e3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2026_04_07_083915 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2026-04-07 083915", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
